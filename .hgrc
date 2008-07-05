@@ -1,0 +1,14 @@
+[ui]
+username = Jiang Jiang <gzjjgod@gmail.com>
+
+[extensions]
+hgext.extdiff =
+
+[defaults]
+# suppress noisy extdiff header message
+cdiff = -q
+
+[extdiff]
+cmd.cdiff = colordiff
+opts.cdiff = -uprN
+

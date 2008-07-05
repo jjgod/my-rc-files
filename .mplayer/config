@@ -1,0 +1,11 @@
+# Write your default config options here!
+
+font=/Users/jjgod/Library/Fonts/DroidSansFallback.ttf
+# subfont-encoding=gbk
+subcp=gbk
+sub-fuzziness=1
+# subfont-autoscale=3
+subfont-text-scale=2.5
+subfont-osd-scale=4.0
+embeddedfonts=1
+# vf=expand=:::::16/11
