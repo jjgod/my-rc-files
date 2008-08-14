@@ -2,8 +2,8 @@
 # Your previous .profile  (if any) is saved as .profile.mpsaved
 # Setting the path for MacPorts.
 export PATH=/iphone/usr/bin:/Developer/usr/bin:/opt/texlive2007/bin/i386-darwin:/opt/local/bin:/opt/local/sbin:$PATH
-export MANPATH=/opt/texlive2007/texmf/doc/man:/opt/local/man:/usr/local/man:$MANPATH
-export INFOPATH=/opt/texlive2007/texmf/doc/info:$INFOPATH
+export MANPATH=/opt/texlive2008/texmf/doc/man:/opt/local/man:/usr/local/man:$MANPATH
+export INFOPATH=/opt/texlive2008/texmf/doc/info:$INFOPATH
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 
 export CLICOLOR=1
@@ -27,6 +27,7 @@ alias grep='grep --color=tty -d skip'
 alias grpe='grep --color=tty -d skip'
 alias h=history
 alias t=task
+alias mmd='~/Library/Application\ Support/MultiMarkdown/bin/multimarkdown2XHTML.pl'
 
 export HISTCONTROL=erasedups
 export HISTSIZE=10000
