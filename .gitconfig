@@ -1,0 +1,20 @@
+[sendemail]
+	smtpserver = /opt/local/bin/msmtp
+[user]
+	name = Jjgod Jiang
+	email = gzjjgod@gmail.com
+[color]
+	branch = auto
+	diff = auto
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+    br = branch
+[merge]
+	tool = opendiff
+[core]
+	excludesfile = /Users/jjgod/.gitignore
+	legacyheaders = false
+[repack]
+	usedeltabaseoffset = true

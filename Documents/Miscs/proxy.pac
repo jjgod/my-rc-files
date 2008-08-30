@@ -11,6 +11,11 @@ function FindProxyForURL(url, host)
     if (dnsDomainIs(host, "livejournal.com")) return "SOCKS 127.0.0.1:7777";
     if (dnsDomainIs(host, "typepad.com")) return "SOCKS 127.0.0.1:7777";
     if (dnsDomainIs(host, "geoffreyalexander.com")) return "SOCKS 127.0.0.1:7777";
+    if (dnsDomainIs(host, "jedrea.com")) return "SOCKS 127.0.0.1:7777";
+    if (dnsDomainIs(host, "masonchang.com")) return "SOCKS 127.0.0.1:7777";
+    if (dnsDomainIs(host, "s-dragon.org")) return "SOCKS 127.0.0.1:7777";
+    if (dnsDomainIs(host, "lethain.com")) return "SOCKS 127.0.0.1:7777";
+    if (dnsDomainIs(host, "demonoid.com")) return "SOCKS 127.0.0.1:7777";
 
     if (dnsDomainIs(host, "pbwiki.com")) return "SOCKS 127.0.0.1:7777";
     if (dnsDomainIs(host, "gpgpu.org")) return "SOCKS 127.0.0.1:7777";
