@@ -9,6 +9,7 @@ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 export CLICOLOR=1
 export LANG=en_US.utf-8
 export LC_CTYPE="en_US.utf-8"
+export PS1="\h:\W \u\$ "
 
 export EDITOR=/Applications/Vim.app/Contents/MacOS/Vim
 

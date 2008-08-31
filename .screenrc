@@ -1,1 +1,4 @@
+vbell off
+escape ^Xx
 startup_message off
+caption always "%{Wb}%3n %t %=[%l | %H | %c]"
