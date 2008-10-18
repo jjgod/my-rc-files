@@ -304,7 +304,7 @@ mailcap-search-path=
 mimetype-search-path=
 
 # List of programs to open Internet URLs (e.g. http or ftp references).
-url-viewers=
+url-viewers=/usr/bin/open
 
 # The maximum number of non-stayopen remote connections that Alpine will use
 max-remote-connections=
@@ -365,7 +365,7 @@ address-book=
 global-address-book=
 
 # Set by Alpine; controls beginning-of-month sent-mail pruning.
-last-time-prune-questioned=108.8
+last-time-prune-questioned=108.10
 
 # Set by Alpine; controls display of "new version" message.
 last-version-used=6.00

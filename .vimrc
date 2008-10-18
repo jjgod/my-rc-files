@@ -3,7 +3,7 @@
 set nocompatible
 syntax on
 set encoding=utf-8
-"set fencs=utf-8,utf-16,gb18030,cp936
+set fencs=utf-8,utf-16,gb18030,cp936
 set shiftwidth=4 tabstop=4 expandtab smarttab autoindent smartindent
 set nobackup nowritebackup
 set nu!
@@ -14,6 +14,7 @@ filetype plugin indent on
 set hlsearch
 set showcmd
 set ruler
+set lbr
 
 set cpt=.,w,b,u,t
 

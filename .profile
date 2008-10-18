@@ -1,7 +1,7 @@
 #
 # Your previous .profile  (if any) is saved as .profile.mpsaved
 # Setting the path for MacPorts.
-export PATH=/iphone/usr/bin:/Developer/usr/bin:/opt/texlive2007/bin/i386-darwin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:$PATH
+export PATH=/Users/jjgod/.cabal/bin:/Developer/usr/bin:/opt/texlive2007/bin/i386-darwin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:$PATH
 export MANPATH=/opt/texlive2008/texmf/doc/man:/opt/local/man:/usr/local/man:$MANPATH
 export INFOPATH=/opt/texlive2008/texmf/doc/info:$INFOPATH
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
@@ -35,6 +35,7 @@ if [ -f /opt/local/etc/bash_completion ]; then
 fi
 
 . /opt/local/share/doc/git-core/contrib/completion/git-completion.bash
+. cdargs-bash.sh
 
 export HISTCONTROL=erasedups
 export HISTSIZE=10000
