@@ -41,7 +41,7 @@ hi Constant 	guifg=#e5786d gui=none
 hi String 		guifg=#95e454
 hi Identifier 	guifg=#cae682 gui=none
 hi Function 	guifg=#cae682 gui=none
-hi Type 		guifg=#cae682 gui=none
+hi Type 		guifg=#cae682
 hi Statement 	guifg=#8ac6f2 gui=none
 hi Keyword		guifg=#8ac6f2 gui=none
 hi PreProc 		guifg=#e5786d gui=none

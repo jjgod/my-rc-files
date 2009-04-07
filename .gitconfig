@@ -18,3 +18,9 @@
 	legacyheaders = false
 [repack]
 	usedeltabaseoffset = true
+[instaweb]
+   local = true
+   httpd = apache2
+   port = 4321
+   modulepath = /usr/libexec/apache2
+

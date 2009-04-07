@@ -3,6 +3,7 @@ username = Jiang Jiang <gzjjgod@gmail.com>
 
 [extensions]
 hgext.extdiff =
+color =
 
 [defaults]
 # suppress noisy extdiff header message

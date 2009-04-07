@@ -2,8 +2,8 @@
 "set langmenu=zh_cn.utf8
 set nocompatible
 syntax on
-set encoding=utf-8
-set fencs=utf-8,utf-16,gb18030,cp936
+" set encoding=utf-8
+set fencs=ucs-bom,utf-8,gb18030,cp936
 set shiftwidth=4 tabstop=4 expandtab smarttab autoindent smartindent
 set nobackup nowritebackup
 set nu!
@@ -15,9 +15,11 @@ set hlsearch
 set showcmd
 set ruler
 set lbr
+set wildmenu
 
 set cpt=.,w,b,u,t
 
+nmap <C-s> :w<CR>
 map <A-k> :tabnext<CR>
 
 map <F2> :tabnext<CR>
@@ -40,4 +42,6 @@ augroup END
 
 au BufRead sup.*        set ft=mail
 au BufNewFile,BufRead *.i set filetype=swig
+
+map ,/ :s/^/\/\//<CR>
 
