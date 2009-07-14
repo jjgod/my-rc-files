@@ -1,3 +1,6 @@
+; add ~/.emacs.d to load path
+(setq load-path (cons "~/.emacs.d" load-path))
+
 ; disable backup
 (setq backup-inhibited t)
 ; disable auto save
@@ -60,11 +63,16 @@
 (global-set-key [?\A-m] 'iconify-frame)
 (global-set-key [?\A-n] 'new-frame)
 
-(set-frame-font "Monaco-14")
+(set-frame-font "Monaco-16")
 (set-fontset-font (frame-parameter nil 'font)
                     'han '("STHeiti" . "unicode-bmp"))
 
 (setq ns-antialias-text t)
-(setq mac-command-modifier 'meta)
-(setq mac-option-modifier 'alt)
+
+(require 'color-theme)
+(color-theme-initialize)
+(color-theme-billw)
+
+(require 'linum)
+(global-linum-mode 1)
 

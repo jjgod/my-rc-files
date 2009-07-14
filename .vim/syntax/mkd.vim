@@ -78,7 +78,7 @@ HtmlHiLink mkdListItem      Identifier
 HtmlHiLink mkdRule          Identifier
 
 
-let b:current_syntax = "mkd"
+let b:current_syntax = "markdown"
 
 delcommand HtmlHiLink
 " vim: ts=8

@@ -26,12 +26,14 @@ map <F2> :tabnext<CR>
 map <F3> :tabprev<CR>
 map <F5> :make<CR>
 nnoremap <silent> <F8> :TlistToggle<CR>
+map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 " TagList settings
 let Tlist_Show_One_File = 1
 let Tlist_Use_Right_Window = 1
 let Tlist_Use_SingleClick = 1
 let Tlist_Enable_Fold_Column = 1
+let g:tex_stylish = 1
 
 set tags+=~/.vim/systags
 
@@ -44,4 +46,12 @@ au BufRead sup.*        set ft=mail
 au BufNewFile,BufRead *.i set filetype=swig
 
 map ,/ :s/^/\/\//<CR>
+
+" When editing a file, always jump to the last cursor position
+autocmd BufReadPost *
+      \ if ! exists("g:leave_my_cursor_position_alone") |
+      \     if line("'\"") > 0 && line ("'\"") <= line("$") |
+      \         exe "normal g'\"" |
+      \     endif |
+      \ endif
 
